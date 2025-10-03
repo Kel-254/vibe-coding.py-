@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mini E-Learning Platform</h1>
+  </header>
+
+  <main>
+    <!-- General Progress -->
+    <section id="progress-section">
+      <h2>Your Learning Progress</h2>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill">
+          <span id="progress-percent">0%</span>
+        </div>
+      </div>
+      <p id="progress-text"></p>
+    </section>
+
+    <!-- Course List -->
+    <section id="course-list">
+      <h2>Available Courses</h2>
+      <div class="courses-container" id="courses"></div>
+    </section>
+
+    <!-- Course Details -->
+    <section id="course-details" class="hidden">
+      <button class="back-btn" id="back-btn">⬅ Back</button>
+      <h2 id="course-title"></h2>
+      <p id="course-description"></p>
+      <h3>Lessons</h3>
+      <ul id="lesson-list"></ul>
+      <p id="course-progress"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mini E-Learning Prototype</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
